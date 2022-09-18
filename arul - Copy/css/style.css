@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Kanit:wght@300&display=swap');
+
+:root{
+    --Primary:#eb4d4b;
+    --Primary-light: #eb4e4bb1;
+    --Secondary: #4834d4;
+    --Secondary-light: #4934d46f;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity: .9;  }
+
+h2{
+    height: 100;
+    font-weight: normal;}
+h3{ 
+    text-align: center;
+    color: #ff6b81;
+    margin-top: 10px 0;
+}
+h4{
+    font-size: 25px;
+}
+
+
+body{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    
+}
+
+#home{
+    background-image: url(/img/Cambridge.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    justify-content: center;
+}
+
+section{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    justify-content: center;
+}
+
+
+p{  
+    padding-top: 0%;
+    font-size: 25px;
+    text-emphasis-position: bottom;
+    text-align: center;
+}
+
+/*#home{background:linear-gradient(to left, #FC427B,#44bd32);}*/
+#about{background:linear-gradient(to right,#7f8fa6,#dcdde1);}
+#contact{background:linear-gradient(to right,#7f8fa6,#dcdde1);}
+/*#contact{background: linear-gradient(to right ,#e74c3c,#FFC312);}*/
+#login{background: linear-gradient(to right, #4834d4,#eb4d4b);}
+
+.home-box{
+
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}    
+
+p{  
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-emphasis-position: bottom;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    padding:none;
+}
+
+
+.Course{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+#about{
+    width: 100%;
+    height: 100%;
+    
+}
+.course-c{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.course-c:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.2);
+}
+
+.campus{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.campus-c{
+    flex-basis: 61%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.campus-c img{
+    width: 100%;
+    padding:left;
+
+}
+.course-c img:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,.2);}
+
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.row-1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.facilities-c{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+    
+}
+
+.facilities-c img{
+    flex-basis: 31%;
+    width: 10%;
+    transition: .5s;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 50px 50px;
+    box-sizing: content-box;
+    transition: .5s;
+}
+.facilities-c img:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.6);
+}
+
+.alumini{
+    flex-basis: 31%;
+    background: none;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.al-c{
+    justify-content: space-around;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 20px;
+    border:#e74c3c;
+    transition: .5s;
+}
+
+.al-c img{
+    width: 100%;
+    padding:left;
+
+}
+.al-c img:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.6);
+}
+
+
+header{
+    background: url(/img/Avengers\ Burning.jpg);
+    background-color: rgba(51, 51, 51, 0.556);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: none;
+    position: fixed;
+    background-color:#ff6b81;
+    border-left: 1px solid rgba(255,255,255,0.3);  
+}
+
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#menu li a{
+    text-decoration:none;
+    color: brown;
+
+}
+
+#about,#contact,#login{
+    padding-top: 80px;
+}
+
+#txtSearch{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 200px;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.search{
+    background-color: #fd79a8;
+    display: flex;
+}
+
+#login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    text-align: center;
+    color: #fff;
+}
+
+form{
+    align-items: center;
+    width: 25rem;
+    height:28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+
+label{
+    margin-right: 250px;
+}
+
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+button{
+    cursor: pointer;
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.02);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+button:hover{
+    transform: translateY(-5px);
+
+}
+
+li::after{
+    content: '';
+    display: block;
+    background-color:var(--Secondary);
+    height: 2px;
+    transform:scaleX(0);
+    transition: transform 300ms;
+}
+
+li:hover::after{
+    transform: scaleX(1);
+
+}
+
+::selection{
+    color: var(--Secondary);
+    background-color: #44bd32;
+}
+
+.cta{
+    margin: 70px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(/img/enroll2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero-btn{
+    color: #e74c3c;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
